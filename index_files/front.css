@@ -1,0 +1,380 @@
+header #main-menu {
+  max-width: 100%;
+}
+
+header #main-menu .nav-container .dropdown-menu {
+  width:220px;
+  right: 0;
+  left: inherit;
+}
+
+.container {
+  max-width: 100%;
+}
+
+#single-prod.receta .head {
+  margin: 0 0 1rem 0;
+}
+
+#single-prod.receta .head h1 {
+  margin-bottom: 0;
+}
+
+#single-prod.receta ul.categorias li {
+  border: 1px solid black;
+  padding: 5px 15px;
+  margin: 5px 5px;
+  margin-left: 0;
+}
+
+#single-prod.receta ul.categorias li a {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: black;
+  font-family: 'Lato-Regular';
+  text-decoration: none;
+}
+
+.container.redes li a {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.container.redes li a i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-categorias {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#single-prod p {
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+#single-prod p.update_time {
+  text-transform: none;
+  color: grey;
+}
+
+#single-prod.receta ul.redes {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#single-prod.receta button.imprimir {
+  margin-bottom: 5px;
+}
+
+div.btn-favorito {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  font-weight: 600;
+  height: 50px;
+  margin-top: 13px;
+}
+
+div.btn-favorito i {
+  margin-left: 5px;
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+#single-prod.receta .evaluar div.box {
+  border: none;
+}
+
+#single-prod.receta .evaluar div.box span {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.icon-rec {
+  margin-bottom: 5px;
+}
+
+.icon-rec:not(:first-child) {
+  margin-left: 10px;
+}
+
+.icon-title {
+  margin-top: -35px;
+  margin-right: 5px;
+  max-height: 25px !important;
+}
+
+#single-prod.receta ul.categorias {
+  margin-bottom: 5px;
+}
+
+ul.redes li {
+  display: inline-flex;
+  border: 1px solid lightgray;
+  padding: 8px;
+  width: 40px;
+  margin: 10px 5px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+ul.redes li a {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+ul.redes li img {
+  max-width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.redes li i {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.redes li a i.fa-facebook {
+  color: #3b5998;
+}
+
+ul.redes li a i.fa-pinterest-p {
+  color: #cb2027;
+}
+
+section.regular .slick-slide img {
+  height: 100%;
+  width: auto;
+}
+
+#contenedor-imprimir h2 {
+  margin: 0 0 2.5rem 0;
+  font-size: 20px;
+}
+
+span.suptit {
+  font-size: 14px;
+  letter-spacing: 8px;
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+span.suptit h3 {
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+
+}
+
+#single-prod .img,
+#single-prod .contenido {
+  margin-bottom: 15px;
+}
+
+.text-bloq ul {
+  padding-left: 15px;
+}
+
+.text-bloq ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+
+.text-bloq p del {
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Oswald-Light";
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.sec-beneficios {
+  padding: 20px;
+}
+
+.sec-beneficios p {
+  margin-top: 8px;
+}
+
+.sec-beneficios img {
+  float: right;
+}
+
+.sec-beneficios strong {
+  font-family: "Oswald-Light";
+  font-size: 17px;
+  font-style: italic;
+}
+
+.sec-compra {
+  padding: 20px;
+}
+
+.sec-compra p {
+  display: inline-block;
+  font-family: "Oswald-Regular";
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #e30614;
+}
+
+.btn-aqui {
+  display: inline-block;
+  background-color: #d0021b;
+  color: white;
+  padding: 6px 30px;
+  text-transform: uppercase;
+  font-family: "Oswald-Regular";
+  font-size: 19px;
+  margin: 0 20px;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-aqui:hover,
+.btn-aqui:focus {
+  text-decoration: none;
+  color: white;
+  background-color: #ec7483;
+}
+
+.container-tracking h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .sec-compra {
+    margin-top: 4rem;
+  }
+}
+
+#recetas-destacadas .slick-arrow {
+	display: block;
+}
+
+#videos-sugeridos .slick-arrow {
+  display: none !important;
+}
+
+#videos-sugeridos .slick-slide img {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-compra {
+    margin-top: 7rem;
+  }
+
+  #recetas-destacadas .slick-dotted.slick-slider,
+  #videos-sugeridos .slick-dotted.slick-slider {
+    margin-bottom: 1rem;
+  }
+
+  #videos-sugeridos .slick-dots {
+    margin-bottom: 3rem;
+  }
+	
+	#recetas-destacadas .slick-dots {
+		margin-bottom: 0;
+	}
+
+}
+
+@media only screen and (max-device-width: 580px) {
+
+  #recetas-destacadas .col-lg-3.col-md-3.col-sm-6.col-xs-12,
+  #videos-sugeridos .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+    float: left !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .btn-favorito {
+    text-align: center;
+  }
+
+  #single-prod.receta .evaluar div.box span {
+    float: none;
+    text-align: center;
+  }
+
+  .sec-beneficios {
+    margin-bottom: 2rem;
+  }
+
+  #single-prod.receta .head h1 {
+    margin-top: 15px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .sec-compra .btn-aqui {
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  #single-prod.receta ul.categorias li {
+    padding: 2px 10px;
+  }
+
+  #single-prod.receta ul.categorias li a {
+    font-size: 10px;
+  }
+}
+
+.contenedor-texto-tienda h4 {
+  font-size: 40px;
+  margin: 20px 0 20pxkeep 0;
+}
+
+.contenedor-texto-tienda p {
+  width: 80%;
+  margin: 0pt auto;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+
+/* //Hide suscribre// */
+/* footer .newsletter h3,
+footer .newsletter p.dcto,
+footer .newsletter form {
+  display: none !important;
+}
+
+footer .newsletter p.rs {
+  font-size: 24px !important;
+  width: 50% !important;
+  margin: 0pt auto !important;
+  line-height: 33px !important;
+}
+
+footer .newsletter {
+  padding-top: 0pc !important;
+} */
